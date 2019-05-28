@@ -1,0 +1,22 @@
+/*================================================================
+    custom stylesheet (write your custom css code here)
+==================================================================*/
+/*for demo-showcase demo*/
+section.section-border{
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.85);
+}
+
+/*remove this in your production used for demo grids*/
+.demo-show-grid [class^=col-] {
+    padding: 20px;
+    background-color: #eee;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
+}
+.section-welcome{background-image: url('../img/pr-bg.jpg');
+}
+/*.section-welcome{background-image: url('https://images.unsplash.com/photo-1453060113865-968cea1ad53a?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=70&w=1375');}*/
+.section-award{background-image:url('../img/bg42.jpg')}
+.section-contact{background-image:url('../img/vakif.jpg')}
